@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1525314405 source:/home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	"json.h"
+
+1525261501 source:/home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_reader.cpp
+	"reader.h"
+	"value.h"
+	"json_tool.h"
+	<utility>
+	<cstdio>
+	<cassert>
+	<cstring>
+	<iostream>
+	<stdexcept>
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1304372818 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/features.h
+	"forwards.h"
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/forwards.h
+	"config.h"
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/config.h
+	<cpptl/config.h>
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1293471924 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_tool.h
+
+1525261540 source:/home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_value.cpp
+	"value.h"
+	"writer.h"
+	"json_batchallocator.h"
+	<iostream>
+	<utility>
+	<stdexcept>
+	<cstring>
+	<cassert>
+	<cpptl/conststring.h>
+	<cstddef>
+	"json_internalarray.inl"
+	"json_internalmap.inl"
+	"json_valueiterator.inl"
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_batchallocator.h
+	<stdlib.h>
+	<assert.h>
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_internalarray.inl
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_internalmap.inl
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_valueiterator.inl
+
+1525261554 source:/home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json_writer.cpp
+	"writer.h"
+	"json_tool.h"
+	<utility>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<sstream>
+	<iomanip>
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1304372844 /home/cct/Desktop/Untitled4/json_test_for_Tcpip_2018/tcpipclient_test/tcpip_client/autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+

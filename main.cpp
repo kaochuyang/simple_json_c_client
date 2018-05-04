@@ -19,13 +19,15 @@ int main(int argc, char**argv)
     Json::Value root;
     Json::FastWriter fast_writer;
     root["REGION_ID"]="600901";
+    root["REGION_ID2"]="6001";
 
     string A=root.toStyledString().c_str();
 
 
 //printf("%c\n",A);
 
-
+   while(strcmp(sendline,"exit")!=0)
+    {
     memset(&servaddr,0,sizeof(servaddr));
     servaddr.sin_family = AF_INET;
     servaddr.sin_port = htons(5000);
@@ -38,8 +40,8 @@ int main(int argc, char**argv)
         printf(" create socket error: %s (errno :%d)\n",strerror(errno),errno);
         return 0;
     }
-    while(strcmp(sendline,"exit")!=0)
-    {
+
+
         //?±µ
         if( connect(sockfd,(struct sockaddr*)&servaddr,sizeof(servaddr)) <0)
         {
@@ -51,9 +53,11 @@ int main(int argc, char**argv)
 //char *p=A.c_str();
 
 
-
         memset(sendline,0,sizeof(sendline));
         printf("if you want to leave, please enter exit\n");
+
+
+
         printf("send msg to server:\n");
         fgets(sendline,4096,stdin);
         //send?°e
@@ -66,7 +70,5 @@ int main(int argc, char**argv)
 
 
     close(sockfd);
-    }
-
-    return 0;
+    }return 0;
 }

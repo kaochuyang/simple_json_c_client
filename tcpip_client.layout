@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="config.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="50" />
+	</File>
+	<File name="features.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="3" />
+	</File>
+	<File name="json_batchallocator.h" open="0" top="0" tabpos="0">
+		<Cursor position="852" topLine="84" />
+	</File>
+	<File name="json_internalarray.inl" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="144" />
+	</File>
+	<File name="json_reader.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7805" topLine="349" />
+	</File>
+	<File name="json_value.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="34125" topLine="1447" />
+	</File>
+	<File name="json_writer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6954" topLine="263" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="793" topLine="13" />
+	</File>
+	<File name="reader.h" open="0" top="0" tabpos="0">
+		<Cursor position="1299" topLine="81" />
+	</File>
+	<File name="value.h" open="1" top="0" tabpos="2">
+		<Cursor position="15249" topLine="13" />
+	</File>
+	<File name="writer.h" open="0" top="0" tabpos="0">
+		<Cursor position="1303" topLine="26" />
+	</File>
+</CodeBlocks_layout_file>
